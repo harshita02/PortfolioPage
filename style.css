@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body {
-  background: "#E5E5E5";
+  background: #E5E5E5;
 }
 
 .image_geometry_1 {
@@ -19,7 +19,7 @@ body {
   height: 14px;
   left: 284px;
   top: 19px;
-  background: "#E5E5E5";
+  background: #E5E5E5;
 }
 
 .profileName {
@@ -33,7 +33,7 @@ body {
   font-weight: 400;
   font-size: 50px;
   line-height: 100%;
-  color: "#1A2236";
+  color: #1A2236;
 }
 
 .intro {
@@ -48,7 +48,7 @@ body {
   font-size: 16px;
   line-height: 21px;
   letter-spacing: -0.01em;
-  color: "#1A2236";
+  color: #1A2236;
 }
 
 .startbtn {
@@ -57,7 +57,16 @@ body {
   width: 288px;
   height: 50px;
   left: 16px;
-  top: 390px;
+  top: 410px;
   color: aliceblue;
-  background: "#1A2236";
+  background: #1A2236;
+}
+
+.geometry {
+  position: absolute;
+  width: 320px;
+  height: 160px;
+  left: 0px;
+  top: 472px;
+
 }

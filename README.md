@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-@@ -1,19 +1,16 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 # Hello Microverse
 > It is a simple Html and Css file following the Git flows and appling linters.
@@ -10,7 +8,7 @@
 
 
 ## Getting Started
-@@ -26,10 +23,15 @@ To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
@@ -24,13 +22,13 @@ https://github.com/microverseinc/readme-template
 
 ### Install
 
-package.json
+package.json :
 npm init -y
 
-node_modules
+node_modules :
 npm install --save-dev hint@7.x
 
-.stylelintrc.json
+.stylelintrc.json :
 npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
 
 
@@ -68,7 +66,3 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./LICENSE) licensed.
-
-=======
-# Hello-Microverse
->>>>>>> b77068b787e1f384e8ccd63df3e51e0bbaf87758

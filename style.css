@@ -1,1 +1,71 @@
-h1 { color: pink; }
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  background: #e5e5e5;
+}
+
+.image_geometry_1 {
+  position: absolute;
+  width: 111px;
+  height: 74px;
+  left: 0;
+  top: 0;
+}
+
+.ic_menu {
+  position: absolute;
+  width: 20px;
+  height: 14px;
+  left: 284px;
+  top: 19px;
+  background: #e5e5e5;
+}
+
+.profileName {
+  position: absolute;
+  width: 220px;
+  height: 100px;
+  left: 16px;
+  top: 104px;
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  color: #1a2236;
+}
+
+.intro {
+  position: absolute;
+  width: 288px;
+  height: 126px;
+  left: 16px;
+  top: 250px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #1a2236;
+}
+
+.startbtn {
+  box-sizing: border-box;
+  position: absolute;
+  width: 288px;
+  height: 50px;
+  left: 16px;
+  top: 410px;
+  color: aliceblue;
+  background: #1a2236;
+}
+
+.geometry {
+  position: absolute;
+  width: 320px;
+  height: 160px;
+  left: 0;
+  top: 472px;
+}

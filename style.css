@@ -1,1 +1,78 @@
-h1 { color: pink; }
+
+body{
+    background: #E5E5E5;
+}
+/* image_geometry_1 */
+
+.image_geometry_1{
+position: absolute;
+width: 111px;
+height: 74px;
+left: 0px;
+top: 0px;
+}
+
+/* ic_menu */
+
+.ic_menu{
+position: absolute;
+width: 20px;
+height: 14px;
+left: 284px;
+top: 19px;
+
+background: #E5E5E5;
+}
+
+/* Profile Name */
+
+.profileName{
+position: absolute;
+width: 220px;
+height: 100px;
+left: 16px;
+top: 104px;
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 100%;
+/* or 50px */
+
+
+color: #1A2236;
+}
+
+
+.intro{
+
+position: absolute;
+width: 288px;
+height: 126px;
+left: 16px;
+top: 250px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+letter-spacing: -0.01em;
+
+color: #1A2236;
+}
+
+/* Rectangle 20 */
+
+.startbtn{
+box-sizing: border-box;
+
+position: absolute;
+width: 288px;
+height: 50px;
+left: 16px;
+top: 390px;
+color: aliceblue;
+background: #1A2236;
+}

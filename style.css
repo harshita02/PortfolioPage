@@ -58,6 +58,7 @@ body {
   line-height: 21px;
   letter-spacing: -0.01em;
   color: #1a2236;
+  text-align: left;
 }
 
 .startbtn {
@@ -69,6 +70,11 @@ body {
   top: 410px;
   color: aliceblue;
   background: #1a2236;
+}
+
+.startbtn:hover {
+  background-color: aliceblue;
+  color: #1a2236;
 }
 
 .geometry {
@@ -205,6 +211,7 @@ a {
   font-weight: 400;
   font-size: 14px;
   color: #1a2236;
+  text-align: left;
 }
 
 .about button {
@@ -258,6 +265,7 @@ a {
   font-size: 18px;
   letter-spacing: -0.0525em;
   color: #fff;
+  text-align: left;
 }
 
 .set-img {
@@ -285,8 +293,9 @@ a {
 }
 
 button:hover {
-  background-color: yellowgreen;
+  background: #e5e5e5;
   cursor: pointer;
+  color: #1a2236;
 }
 
 .name {

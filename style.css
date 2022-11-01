@@ -292,17 +292,158 @@ a {
   background-color: #febf52;
 }
 
-button:hover {
+/* button:hover {
   background: #e5e5e5;
   cursor: pointer;
   color: #1a2236;
+} */
+
+.name{
+  height: 50px;
+  background: #FFFFFF;
+  border: 1px solid #DFDFE0;
+  border-radius: 4px;
 }
 
-.name {
+.contact {
+  background: #f9f9fa;
+}
+
+.contact__text {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #1a2236;
+  padding: 20px;
+  clear: both;
+}
+
+.contact__form {
+  display: grid;
+  grid-template-columns: 1;
+  grid-gap: 10px;
+}
+
+.name{
+  height: 50px;
+  background: #FFFFFF;
+  border: 1px solid #DFDFE0;
+  border-radius: 4px;
+}
+
+.email {
+  height: 50px;
+  background: #FFFFFF;
+border: 1px solid #1A2236;
+border-radius: 4px;
+}
+
+.message {
+  height: 20vw;
+  background: #FFFFFF;
+  border: 1px solid #DFDFE0;
+  border-radius: 4px;
+}
+
+::placeholder{
   position: absolute;
-  width: 69px;
-  height: 20px;
-  left: 20px;
-  top: 992px;
-  background: #98dede;
+}
+
+.contact__button {
+  height: 70px;
+  left: 16px;
+  top: 3090px;
+  background: #1a2236;
+  margin: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+}
+
+.contact__button:hover{
+  background-color:#fff;
+  color: #1a2236 ;
+}
+
+.footer {
+  background: #1a2236;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__button {
+  background-color: transparent;
+  display: flex;
+  justify-content: flex-start;
+  border: 0;
+  width: 100%;
+  margin-left: 20px;
+}
+
+.social{
+  width:6vw;
+
+  
+}
+
+.socials {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+  align-items: baseline;
+  margin-bottom: 80px;
+}
+
+.footer__button__text {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 5vw;
+  line-height: 5vw;
+  color: #92dcdc;
+}
+
+.footer__button__image {
+  margin-left: 3vw;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  align-items: center;
+  align-self: center;
+  height: 5vw;
+}
+
+
+.corner__geometry {
+  height: 111px;
+  width: 74px;
+  margin: 0;
+  float: left;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  min-height: 550px;
+}
+
+.h2 {
+  font-family: 'Playfair Display', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10vw;
+  line-height: 100%;
+  color: #1a2236;
+  padding-left: 20px;
+  clear: both;
 }

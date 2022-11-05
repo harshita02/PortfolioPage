@@ -8,27 +8,68 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-        <header id="header">
+        <header class="header header_desktop">
             <img class ="image_geometry_1" src="images/image_geometry_1.png"/>
            
             <nav><img class ="ic_menu" src="images/ic_menu.png"/></nav>
 
         </header>
+       
+        <ul class="menu">
+            <li class="links"><a href="#hello">Hello</a></li>
+            <li class="links"><a href="#portfolio">Portfolio</a></li>
+            <li class="links"><a href="#about">About</a></li>
+            <li class="links"><a href="#contact">Contact</a></li>
+         </ul>
+         
+      
+       
 
-        <section id="headline">
+        <section class="headline">
+            <div class="mb-headline">
             <h1 class="profileName">Harshita Jain</h1>
             
             <p class="intro">Hello! I am a software developer! I can help you build a product, feature or website. Taka a look of my works. If you like what you see and have a project you need coded, don’t hesitate and contact me. </p>
             <button class="startbtn">Start collaboration</button>
+        </div>
+        
         </section>
         <img class="geometry" src="images/image_geometry_2.png"/>
 
-        <section id="works">
+        <section class="works">
            
-            <h2 class="pro">Projects</h2>
-       <div class="grid-items">
-        <div class="project">
-            <img class="pr-img1" src="images/Rectangle 21.png">
+         <h2 class="pro">Projects</h2>
+
+         <div class="dots">
+            <img class="dotImg" src="images/image_dots.svg">
+         </div>
+         
+
+
+         <div class="project pr-dsk1">
+            <img class="pr-img1" src="images/Rectangle 21.svg">
+            <div class="project-ins projectadd">
+                <h3>Project name goes here</h3>
+                <ul>
+                    <li>HTML/CSS</li>
+                    <li>Ruby on Rails</li>
+                    <li>JavaScript</li>
+                </ul>
+                <a href="#">
+                    <button type="button">
+                        <span>See this project</span>
+                        <img class="pr-button-img" src="images/Union.png">
+                    </button>
+                </a>
+            </div>
+          </div>
+
+          
+
+          <img class="pr-dsk" src="images/image-geometry_2.svg">
+
+          <div class="project pr-dsk2">
+            <img class="pr-img" src="images/Rectangle 21 (1).svg">
             <div class="project-ins">
                 <h3>Project name goes here</h3>
                 <ul>
@@ -43,9 +84,9 @@
                     </button>
                 </a>
             </div>
-        </div>
-        <div class="project">
-            <img class="pr-img" src="images/Rectangle 21 (1).png">
+          </div>
+          <div class="project pr-dsk3">
+            <img class="pr-img" src="images/Rectangle 21 (3).svg">
             <div class="project-ins">
                 <h3>Project name goes here</h3>
                 <ul>
@@ -60,9 +101,9 @@
                     </button>
                 </a>
             </div>
-        </div>
-        <div class="project">
-            <img class="pr-img" src="images/Rectangle 21 (2).png">
+          </div>
+          <div class="project pr-dsk4">
+            <img class="pr-img big-img" src="images/Rectangle 21 (2).svg">
             <div class="project-ins">
                 <h3>Project name goes here</h3>
                 <ul>
@@ -77,9 +118,11 @@
                     </button>
                 </a>
             </div>
-        </div>
-        <div class="project">
-            <img class="pr-img" src="images/Rectangle 21 (3).png">
+          </div>
+          <img class="imgGeo2" src="images/image-geometry_3.svg">
+
+          <div class="project pr-dsk5">
+            <img class="pr-img" src="images/Rectangle 21 (4).svg">
             <div class="project-ins">
                 <h3>Project name goes here</h3>
                 <ul>
@@ -94,9 +137,9 @@
                     </button>
                 </a>
             </div>
-        </div>
-        <div class="project">
-            <img class="pr-img" src="images/Rectangle 21 (4).png">
+          </div>
+          <div class="project pr-dsk6">
+            <img class="pr-img" src="images/Rectangle 21 (5).svg">
             <div class="project-ins">
                 <h3>Project name goes here</h3>
                 <ul>
@@ -111,33 +154,18 @@
                     </button>
                 </a>
             </div>
-        </div>
-        <div class="project">
-            <img class="pr-img" src="images/Rectangle 21 (5).png">
-            <div class="project-ins">
-                <h3>Project name goes here</h3>
-                <ul>
-                    <li>HTML/CSS</li>
-                    <li>Ruby on Rails</li>
-                    <li>JavaScript</li>
-                </ul>
-                <a href="#">
-                    <button type="button">
-                        <span>See this project</span>
-                        <img class="pr-button-img" src="images/Union.png">
-                    </button>
-                </a>
-            </div>
-        </div>
-       </div>
-    </section>
+          </div>
+       
+        </section>
     <section class="about">
+        <div class="abouthead">
         <h2>About</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ea eiusmod</p>
-        <button type="button">
+        <button class="btn" type="button">
             Get my CV
             <img src="images/ic_download.svg">
         </button>
+    </div>
         <div class="languages">
             <h4 class="set-h">Languages</h4>
             <ul class="set-ul">
@@ -170,24 +198,33 @@
             </ul>
             <img class="set-img" src="images/ic_skills.png">
         </div>
+
+        <img class="dotImg1" src="images/image_dots_with_teal.svg">
         </section>
         <br>
     
 
         <section class="contact">
             <div class="corner__geometry">
-                <img src="./images/corner_geometry.svg">
+                <img class="corner_geometry" src="./images/corner_geometry.svg">
+                <img class="image-geometry_6" src="./images/image-geometry_6.svg">
             </div>
-
+        <div class="get_started">
             <h2 class="h2">Get Started</h2>
             <p class="contact__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
             <form action="https://formspree.io/f/xeqdpkgq" method="post" class="contact__form">
+                <!-- <label class="label1">Your name</label> -->
                 <input type="text" required maxlength="30" placeholder="your name" name="name" class="name">
+                <!-- <label class="label2">Your Email</label> -->
                 <input type="email" required placeholder="your email" name="email" class="email">
+                <!-- <label class="label1">Message</label> -->
                 <textarea type="text" placeholder="Enter your message" name="message" maxlength="500" class="message"  required></textarea>
                 <input type="submit" value="Start Collaboration" class="buttons contact__button">
             </form>
-
+        </div>
+        <div>
+            <img class="image-geometry_7" src="./images/image-geometry_7.svg">
+        </div>
         </section>
     </main>
 
@@ -199,12 +236,12 @@
        
         <nav>
             <ul class="socials">
-                <li href=""><img src="./images/stackoverflow.svg" alt="go to my stackoverflow" class="social"></li>
-                <li href=""><img src="./images/github.svg" alt="go to my github" class="social"></li>
-                <li href=""><img src="./images/twitter.svg" alt="go to my twitter" class="social"></li>
-                <li href=""><img src="./images/linkendin.svg" alt="go to my linkendin" class="social"></li>
-                <li href=""><img src="./images/m.svg" alt="go to my M" class="social"></li>
-                <li href=""><img src="./images/fingers.svg" alt="go to my M" class="social"></li>
+                <li href="#"><img src="./images/stackoverflow.svg" alt="go to my stackoverflow" class="social"></li>
+                <li href="#"><img src="./images/github.svg" alt="go to my github" class="social"></li>
+                <li href="#"><img src="./images/twitter.svg" alt="go to my twitter" class="social"></li>
+                <li href="#"><img src="./images/linkendin.svg" alt="go to my linkendin" class="social"></li>
+                <li href="#"><img src="./images/m.svg" alt="go to my M" class="social"></li>
+                <li href="#"><img src="./images/fingers.svg" alt="go to my M" class="social"></li>
             </ul>
         </nav>
         
